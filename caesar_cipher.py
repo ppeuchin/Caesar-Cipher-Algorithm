@@ -1,45 +1,61 @@
 #Caeser Cipher Algorithm for encryption and decryption
 
-def caesar_encryption(plaintext, key):
-    encrypted_str = ""
-    for i in plaintext:
-        if i.isupper():
-            uni_value = 65 + ((ord(i) - 65 + key) % 26)
-            encrypted_str = encrypted_str + chr(uni_value)
-        elif i.islower():
-            uni_value = 97 + ((ord(i) - 97 + key) % 26)
-            encrypted_str = encrypted_str + chr(uni_value)
-        else:
-            encrypted_str = encrypted_str + i
+import caesar_encryption, caesar_decryption
+import time
+import sys
+
+def decor(func):
+    def wrap():
+        print("[=======================================]")
+        func()
+        print("\n[=======================================]")
+    return wrap
+
+@decor
+def display():
+    print("        CAESAR CIPHER ALGORITHM")
+
+display()
+
+time.sleep(0.5)
+
+print("Hello there! What can i help you with?")
+time.sleep(1)
+print("\n1. Encryption")
+time.sleep(0.3)
+print("2. Decryption\n")
+time.sleep(1)
+
+option = input("Input an option: ")
+
+if option == '1':
+    plaintext = input("Enter the text: ")
+    key = int(input("Enter the key: "))
     
-    print("The encrypted text is:", encrypted_str)
+    for i in 'Encrypting....':
+        sys.stdout.write(i)
+        sys.stdout.flush()
+        time.sleep(0.3)
+    print()
 
-plaintext = input("Enter the text: ")
-key = int(input("Enter the key: "))
-caesar_encryption(plaintext, key)
+    for j in '..............':
+        sys.stdout.write(j)
+        sys.stdout.flush()
+        time.sleep(0.3)
+    print()
 
-def caesar_decryption(ciphertext, key):
-    decrypted_str = ""
-    for i in ciphertext:
-        if i.isupper():
-            if (ord(i) - 65 - key) < 0:
-                uni_value = 65 + ((ord(i) - 65 - key) + 26) % 26
-                decrypted_str = decrypted_str + chr(uni_value)
-            else:
-                uni_value = 65 + (ord(i) - 65 - key) % 26
-                decrypted_str = decrypted_str + chr(uni_value)
-        elif i.islower():
-            if (ord(i) - 97 - key) < 0:
-                uni_value = 97 + ((ord(i) - 97 - key) + 26) % 26
-                decrypted_str = decrypted_str + chr(uni_value)
-            else:
-                uni_value = 97 + (ord(i) - 97 - key) % 26
-                decrypted_str = decrypted_str + chr(uni_value)
-        else:
-            decrypted_str = decrypted_str + i
+    for k in 'Almost there....':
+        sys.stdout.write(k)
+        sys.stdout.flush()
+        time.sleep(0.3)
+    print('\n')
 
-    print("The decrypted text is:", decrypted_str)       
+    caesar_encryption.caesar_encryption(plaintext, key)
 
-ciphertext = input("Enter the encrypted text: ")
-key = int(input("Enter the key:"))
-caesar_decryption(ciphertext, key) 
+elif option == '2':
+    ciphertext = input("Enter the encrypted text: ")
+    key = int(input("Enter the key:"))
+    caesar_decryption.caesar_decryption(ciphertext, key)
+
+else:
+    print("invalid option")
