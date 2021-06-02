@@ -1,9 +1,16 @@
 #Decryption algorithm
 import time
+#import sys
+from extras import decor
+
+@decor
+def intro():
+    time.sleep(1)
+    print("   Welcome To Caesar Cipher Decryptor")
 
 def caesar_decryption(ciphertext, key):
     decrypted_str = ""
-#welcome to caesar cipher decryptor  
+
     for i in ciphertext:
         
         if i.isupper():
@@ -31,3 +38,8 @@ def caesar_decryption(ciphertext, key):
     
     time.sleep(1)
     print("The decrypted text is:", decrypted_str)
+
+    # for i in decrypted_str:
+    #     sys.stdout.write(i)
+    #     sys.stdout.flush()
+    #     time.sleep(0.2)

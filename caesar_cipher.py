@@ -1,15 +1,9 @@
-#Caeser Cipher Algorithm for encryption and decryption
+#Caeser Cipher Algorithm for Encryption and Decryption
 
-import caesar_encryption, caesar_decryption
+from caesar_encryption import caesar_encryption, intro
+from caesar_decryption import caesar_decryption
+from extras import decor, load_a, load_b, load_c, load_d
 import time
-import sys
-
-def decor(func):
-    def wrap():
-        print("[=======================================]")
-        func()
-        print("\n[=======================================]")
-    return wrap
 
 @decor
 def display():
@@ -29,33 +23,36 @@ time.sleep(1)
 option = input("Input an option: ")
 
 if option == '1':
+    time.sleep(1.5)
+    intro()
+    print()
+    time.sleep(1)
     plaintext = input("Enter the text: ")
+    time.sleep(0.5)
     key = int(input("Enter the key: "))
-    
-    for i in 'Encrypting....':
-        sys.stdout.write(i)
-        sys.stdout.flush()
-        time.sleep(0.3)
-    print()
-
-    for j in '..............':
-        sys.stdout.write(j)
-        sys.stdout.flush()
-        time.sleep(0.3)
-    print()
-
-    for k in 'Almost there....':
-        sys.stdout.write(k)
-        sys.stdout.flush()
-        time.sleep(0.3)
-    print('\n')
-
-    caesar_encryption.caesar_encryption(plaintext, key)
+    time.sleep(1)
+    print("--------------------------")
+    load_a()
+    load_b()
+    load_c()
+    caesar_encryption(plaintext, key)
 
 elif option == '2':
+    time.sleep(1.5)
+    intro()
+    print()
+    time.sleep(1)
     ciphertext = input("Enter the encrypted text: ")
+    time.sleep(0.5)
     key = int(input("Enter the key:"))
-    caesar_decryption.caesar_decryption(ciphertext, key)
+    time.sleep(1)
+    print("--------------------------")
+    load_d()
+    load_b()
+    load_c()
+    caesar_decryption(ciphertext, key)
 
 else:
+    time.sleep(1.5)
+    print()
     print("invalid option")
