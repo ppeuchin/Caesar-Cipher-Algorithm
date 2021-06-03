@@ -7,6 +7,10 @@ def intro():
     time.sleep(1)
     print("   Welcome To Caesar Cipher Encryptor")
 
+def note():
+    print()
+    print("NOTE: ALWAYS REMEMBER TO KEEP THE KEY SECURE! YOU NEED THE SAME KEY TO DECRYPT THE TEXT!")
+
 def caesar_encryption(plaintext, key):
     encrypted_str = ""
  

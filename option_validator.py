@@ -1,6 +1,7 @@
 import time
 import os
-from extras import load_a, load_b, load_c, load_d
+import sys
+from extras import load_a, load_b
 import caesar_encryption as ce
 import caesar_decryption as cd
 
@@ -11,6 +12,7 @@ def options():
         time.sleep(1.5)
         os.system('cls')
         ce.intro()
+        ce.note()
         print()
         time.sleep(1)
         plaintext = input("Enter the text: ")
@@ -20,14 +22,13 @@ def options():
         time.sleep(1)
         print("--------------------------")
         load_a()
-        load_b()
-        load_c()
         ce.caesar_encryption(plaintext, key)
 
     elif option == '2':
         time.sleep(1.5)
         os.system('cls')
         cd.intro()
+        cd.note()
         print()
         time.sleep(1)
         ciphertext = input("Enter the encrypted text: ")
@@ -36,10 +37,14 @@ def options():
         print()
         time.sleep(1)
         print("--------------------------")
-        load_d()
         load_b()
-        load_c()
         cd.caesar_decryption(ciphertext, key)
+
+    elif option == '3':
+        time.sleep(1.5)
+        os.system('cls')
+        msg = "Thank you! :)\nSee you next time!"
+        sys.exit(msg)
 
     else:
         time.sleep(1.5)
