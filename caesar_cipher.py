@@ -12,6 +12,7 @@ display()
 
 time.sleep(0.5)
 
+print()
 print("Hello there! What can i help you with?")
 time.sleep(1)
 print("\n1. Encryption")
