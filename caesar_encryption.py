@@ -1,10 +1,10 @@
-#Encryption algorithm
+# Encryption algorithm
 import time
-#import sys
 from extras import decor
 
 @decor
 def intro():
+    time.sleep(1)
     print("   Welcome To Caesar Cipher Encryptor")
 
 def caesar_encryption(plaintext, key):
@@ -25,8 +25,3 @@ def caesar_encryption(plaintext, key):
     
     time.sleep(1)
     print("The encrypted text is:", encrypted_str)
-    
-    # for i in encrypted_str:
-    #     sys.stdout.write(i)
-    #     sys.stdout.flush()
-    #     time.sleep(0.2)

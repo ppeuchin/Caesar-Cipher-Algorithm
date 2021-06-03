@@ -1,2 +1,2 @@
 # Caesar-Cipher-Algorithm
-A Caesar Cipher algorithm for encrypting and decrypting text
+A Caesar Cipher encryption and decryption tool

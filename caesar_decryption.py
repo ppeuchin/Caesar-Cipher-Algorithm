@@ -1,6 +1,5 @@
-#Decryption algorithm
+# Decryption algorithm
 import time
-#import sys
 from extras import decor
 
 @decor
@@ -38,8 +37,3 @@ def caesar_decryption(ciphertext, key):
     
     time.sleep(1)
     print("The decrypted text is:", decrypted_str)
-
-    # for i in decrypted_str:
-    #     sys.stdout.write(i)
-    #     sys.stdout.flush()
-    #     time.sleep(0.2)

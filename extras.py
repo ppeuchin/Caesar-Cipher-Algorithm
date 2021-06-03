@@ -23,7 +23,8 @@ def load_b():
     print()
 
 def load_c():
-    for k in 'Almost there....':
+    print('Almost there!')
+    for k in '..............':
         sys.stdout.write(k)
         sys.stdout.flush()
         time.sleep(0.3)
