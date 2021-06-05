@@ -9,3 +9,10 @@ NOTE: You must have python installed on your device to be able to use this tool.
 - Download the file <a href="https://github.com/HybridCodes/Caesar-Cipher-Algorithm/releases/tag/v1.0">here</a>
 - Extract it into a folder
 - Open command prompt and navigate to the folder in which you extracted the file
+
+## On Android
+- Download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US">Termux</a> from the play store
+- Open Termux and run the following commands:
+```bash
+$ termux-setup-storage
+```
