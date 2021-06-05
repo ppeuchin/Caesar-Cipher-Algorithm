@@ -14,8 +14,10 @@ NOTE: You must have python installed on your device to be able to use this tool.
 - Download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US">Termux</a> from the play store
 - Open Termux and run the following commands:
 ```bash
-# Hit enter after entering every command to execute the command
+# Hit enter after typing each command to execute the command
 
 $ pkg update && upgrade / -y
 $ pkg install python
+$ pkg install pip
+$ pkg install git
 ```
