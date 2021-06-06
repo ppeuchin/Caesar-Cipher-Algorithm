@@ -20,4 +20,5 @@ def load_b():
         sys.stdout.write(i)
         sys.stdout.flush()
         time.sleep(0.3)
+
     print('\n')
