@@ -32,5 +32,6 @@ $ git clone https://github.com/codebytesz/Caesar-Cipher-Algorithm.git
 $ dir # To show the items in the downloads folder now, you should see the cloned item among the files listed
   Caesar-Cipher-Algorithm
 $ cd Caesar-Cipher-Algorithm
-$ dir # (Optional) To see the items in the Caesar-Cipher-Algorithm folder 
+$ dir # (Optional) To see the items in the Caesar-Cipher-Algorithm folder
+$ python caesar_cipher.py
 ```
