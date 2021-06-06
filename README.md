@@ -29,7 +29,7 @@ $ dir # Execute this command to check the list of items in the directory in whic
   downloads  movies      pictures
 $ cd downloads # To navigate to the downloads folder
 $ git clone https://github.com/codebytesz/Caesar-Cipher-Algorithm.git
-$ dir # Still in the downloads folder
+$ dir # To show the items in the downloads folder now, you should see the cloned item among the files listed
   Caesar-Cipher-Algorithm
 $ cd Caesar-Cipher-Algorithm
 $ dir # (Optional) To see the items in the Caesar-Cipher-Algorithm folder 
