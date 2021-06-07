@@ -36,7 +36,7 @@ $ dir # (Optional) To see the items in the Caesar-Cipher-Algorithm folder
 $ python caesar_cipher.py # This command starts the program
 ```
 **Alternatively:**
-- Download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US">Termux</a> from the play store
+- Download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US">_Termux_</a> from the play store
 - Download the file and extract it into a folder
 
 # Report a bug :beetle:
