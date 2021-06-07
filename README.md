@@ -6,7 +6,7 @@ NOTE: You must have python installed on your pc to be able to use this tool.
 - <a href="https://realpython.com/installing-python/">Guide</a> to install and setup python
 
 ## On PC
-- Download the file <a href="https://github.com/HybridCodes/Caesar-Cipher-Algorithm/releases/tag/v1.0">here</a>
+- Download the file <a href="https://github.com/HybridCodes/Caesar-Cipher-Algorithm/releases">here</a>
 - Extract it into a folder
 - Open command prompt and navigate to the folder in which you extracted the file
 
@@ -35,3 +35,5 @@ $ cd Caesar-Cipher-Algorithm
 $ dir # (Optional) To see the items in the Caesar-Cipher-Algorithm folder
 $ python caesar_cipher.py
 ```
+# Report a bug
+If you experience any bugs or want to make a contribution, create an <a href="https://github.com/codebytesz/Caesar-Cipher-Algorithm/issues">issue</a>
