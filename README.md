@@ -1,7 +1,7 @@
 # Caesar-Cipher-Algorithm
 A Caesar Cipher encryption and decryption tool
 
-  [![Updated Badge](https://badges.pufler.dev/updated/codebytesz/Caesar-Cipher-Algorithm)](https://badges.pufler.dev)
+  ![Updated Badge](https://badges.pufler.dev/updated/codebytesz/Caesar-Cipher-Algorithm)
 
 # Usage
 NOTE: You must have python installed on your pc to be able to use this tool.
