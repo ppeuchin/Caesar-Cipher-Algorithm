@@ -5,10 +5,27 @@ A Caesar Cipher encryption and decryption tool
 NOTE: You must have python installed on your pc to be able to use this tool.
 - <a href="https://realpython.com/installing-python/">_Guide_</a> to install and setup python
 
-## On PC
+## On Windows PC
 - Download the <a href="https://github.com/HybridCodes/Caesar-Cipher-Algorithm/releases/latest">_file_</a>
-- Extract it into a folder
+- Locate the `.zip` file
+  
+   <img src="Capture1.PNG">
+- Right-click on the file and click Extract to "caesar_cipher\\".
 - Open command prompt and navigate to the folder in which you extracted the file
+```bash
+# Command Prompt
+
+# Hit enter after typing each command to execute the command
+
+C:\Users\your_name>cd Downloads # To navigate to the Downloads folder
+
+C:\Users\your_name\Downloads>dir # To see the items in the Downloads folder
+caesar_cipher
+
+C:\Users\your_name\Downloads>cd caesar_cipher
+
+C:\Users\your_name\Downloads\caesar_cipher>py caesar_cipher.py
+```
 
 ## On Android
 - Download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US">_Termux_</a> from the play store
