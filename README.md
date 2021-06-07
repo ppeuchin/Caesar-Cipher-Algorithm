@@ -35,5 +35,5 @@ $ cd Caesar-Cipher-Algorithm
 $ dir # (Optional) To see the items in the Caesar-Cipher-Algorithm folder
 $ python caesar_cipher.py
 ```
-# Report a bug :bug:
+# Report a bug :ladybug:
 If you experience any bugs or want to make a contribution, create an <a href="https://github.com/codebytesz/Caesar-Cipher-Algorithm/issues">issue</a>.
