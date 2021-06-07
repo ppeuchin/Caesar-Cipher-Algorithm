@@ -10,7 +10,8 @@ NOTE: You must have python installed on your pc to be able to use this tool.
 - Locate the `.zip` file
   
    <img src="Capture1.PNG">
-- Right-click on the file and click Extract to "caesar_cipher\\".
+- Right-click on the file and click `Extract to "caesar_cipher"`
+  - In this case, i'm using <a href="https://www.win-rar.com/start.html?&L=0">_winrar_</a> to extract the file
 - Open command prompt and navigate to the folder in which you extracted the file
 ```bash
 # Command Prompt
