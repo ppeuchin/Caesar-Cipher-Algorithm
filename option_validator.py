@@ -1,7 +1,6 @@
 import time
-import os
 import sys
-from extras import load_a, load_b
+from extras import load_a, load_b,clear
 import caesar_encryption as ce
 import caesar_decryption as cd
 
@@ -10,7 +9,7 @@ def options():
     print()
     if option == '1':
         time.sleep(1.5)
-        os.system('cls')
+        clear()
         ce.intro()
         ce.note()
         print()
@@ -26,7 +25,7 @@ def options():
 
     elif option == '2':
         time.sleep(1.5)
-        os.system('cls')
+        clear()
         cd.intro()
         cd.note()
         print()
@@ -42,7 +41,7 @@ def options():
 
     elif option == '3':
         time.sleep(1.5)
-        os.system('cls')
+        clear()
         msg = "Thank you! :)\nSee you next time!"
         sys.exit(msg)
 

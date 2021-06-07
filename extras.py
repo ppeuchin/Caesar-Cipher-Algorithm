@@ -1,5 +1,6 @@
 import sys
 import time
+from os import system, name
 
 def decor(func):
     def wrap():
@@ -21,3 +22,11 @@ def load_b():
         sys.stdout.flush()
         time.sleep(0.3)
     print('\n')
+
+def clear():
+    # Windows
+    if name == 'nt':
+        system('cls')
+    # Mac and Linux
+    else:
+        system('clear')

@@ -1,9 +1,9 @@
 import time
 from option_validator import options
-import os
+from extras import clear
 
 def redo():
-    os.system('cls')
+    clear()
     print('*******************************')
     print('What would you like to do next?')
     time.sleep(1)
