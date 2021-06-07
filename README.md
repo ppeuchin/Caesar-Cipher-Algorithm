@@ -33,7 +33,11 @@ $ dir # To show the items in the downloads folder now, you should see the cloned
   Caesar-Cipher-Algorithm
 $ cd Caesar-Cipher-Algorithm
 $ dir # (Optional) To see the items in the Caesar-Cipher-Algorithm folder
-$ python caesar_cipher.py
+$ python caesar_cipher.py # This command starts the program
 ```
+**Alternatively:**
+- Download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US">Termux</a> from the play store
+- Download the file and extract it into a folder
+
 # Report a bug :beetle:
 If you experience any bugs or want to make a contribution, create an <a href="https://github.com/codebytesz/Caesar-Cipher-Algorithm/issues">issue</a>.
