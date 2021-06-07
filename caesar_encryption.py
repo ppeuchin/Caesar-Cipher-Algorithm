@@ -1,15 +1,17 @@
 # Encryption algorithm
+from colorama.ansi import Fore
+from colours import print_with_color
 import time
 from extras import decor
 
 @decor
 def intro():
     time.sleep(1)
-    print("   Welcome To Caesar Cipher Encryptor")
+    print_with_color("   Welcome To Caesar Cipher Encryptor", color=Fore.GREEN)
 
 def note():
     print()
-    print("NOTE: ALWAYS REMEMBER TO KEEP THE KEY SECURE! YOU NEED THE SAME KEY TO DECRYPT THE TEXT!")
+    print_with_color("NOTE: ALWAYS REMEMBER TO KEEP THE KEY SECURE! YOU NEED THE SAME KEY TO DECRYPT THE TEXT!", color=Fore.RED)
 
 def caesar_encryption(plaintext, key):
     encrypted_str = ""

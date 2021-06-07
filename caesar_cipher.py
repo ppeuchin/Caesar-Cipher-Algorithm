@@ -1,13 +1,16 @@
 # Caeser Cipher Encryption and Decryption Tool
 
+from colorama.ansi import Fore
 from extras import decor
 import time
 from option_validator import options
 from redo import redo
+from colours import print_with_color
 
+time.sleep(1)
 @decor
 def display():
-    print("        CAESAR CIPHER ALGORITHM")
+    print_with_color("        CAESAR CIPHER ALGORITHM", color=Fore.BLUE)
 
 display()
 

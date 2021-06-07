@@ -1,15 +1,17 @@
 # Decryption algorithm
+from colorama.ansi import Fore
+from colours import print_with_color
 import time
 from extras import decor
 
 @decor
 def intro():
     time.sleep(1)
-    print("   Welcome To Caesar Cipher Decryptor")
+    print_with_color("   Welcome To Caesar Cipher Decryptor", color=Fore.GREEN)
 
 def note():
     print()
-    print("NOTE: YOU ALWAYS NEED TO HAVE THE SAME KEY USED TO ENCRYPT THE TEXT!")
+    print_with_color("NOTE: YOU ALWAYS NEED TO HAVE THE SAME KEY USED TO ENCRYPT THE TEXT!", color=Fore.RED)
     
 def caesar_decryption(ciphertext, key):
     decrypted_str = ""
