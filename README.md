@@ -3,7 +3,7 @@ A Caesar Cipher encryption and decryption tool
 
 # Usage
 NOTE: You must have python installed on your pc to be able to use this tool.
-- <a href="https://realpython.com/installing-python/">Guide</a> to install and setup python
+- <a href="https://realpython.com/installing-python/"><i>Guide</i></a> to install and setup python
 
 ## On PC
 - Download the <a href="https://github.com/HybridCodes/Caesar-Cipher-Algorithm/releases">_file_</a>
