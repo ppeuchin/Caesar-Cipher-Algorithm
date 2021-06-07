@@ -1,6 +1,8 @@
 # Caesar-Cipher-Algorithm
 A Caesar Cipher encryption and decryption tool
 
+  [![Updated Badge](https://badges.pufler.dev/updated/codebytesz/Caesar-Cipher-Algorithm)](https://badges.pufler.dev)
+
 # Usage
 NOTE: You must have python installed on your pc to be able to use this tool.
 - <a href="https://realpython.com/installing-python/">_Guide_</a> to install and setup python
@@ -39,6 +41,7 @@ $ pkg install python
 $ pkg install pip 
 $ pkg install git
 $ pip install --upgrade pip
+$ pip install colorama
 $ termux-setup-storage # Allow access to storage
 $ cd storage
 $ dir # Execute this command to see the list of items in the directory you're currently in
@@ -62,6 +65,7 @@ $ python caesar_cipher.py # This command starts the program
 
 $ pkg update && upgrade / -y
 $ pkg install python
+$ pip install colorama
 $ termux-setup-storage # Allow access to storage
 $ cd storage
 $ dir # (Optional) This command is to see the list of items in the directory you're currently in
