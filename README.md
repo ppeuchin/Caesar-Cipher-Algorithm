@@ -6,12 +6,12 @@ NOTE: You must have python installed on your pc to be able to use this tool.
 - <a href="https://realpython.com/installing-python/">Guide</a> to install and setup python
 
 ## On PC
-- Download the file <a href="https://github.com/HybridCodes/Caesar-Cipher-Algorithm/releases">here</a>
+- Download the <a href="https://github.com/HybridCodes/Caesar-Cipher-Algorithm/releases">_file_</a>
 - Extract it into a folder
 - Open command prompt and navigate to the folder in which you extracted the file
 
 ## On Android
-- Download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US">Termux</a> from the play store
+- Download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US">_Termux_</a> from the play store
 - Open Termux and execute the following commands:
 ```bash
 # Hit enter after typing each command to execute the command
@@ -40,4 +40,4 @@ $ python caesar_cipher.py # This command starts the program
 - Download the file and extract it into a folder
 
 # Report a bug :beetle:
-If you experience any bugs or want to make a contribution, create an <a href="https://github.com/codebytesz/Caesar-Cipher-Algorithm/issues">issue</a>.
+If you experience any bugs or want to make a contribution, create an <a href="https://github.com/codebytesz/Caesar-Cipher-Algorithm/issues">_issue_</a>.
