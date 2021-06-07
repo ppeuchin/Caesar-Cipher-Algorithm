@@ -3,7 +3,7 @@ A Caesar Cipher encryption and decryption tool
 
 # Usage
 NOTE: You must have python installed on your pc to be able to use this tool.
-- <a href="https://realpython.com/installing-python/"><i>Guide</i></a> to install and setup python
+- <a href="https://realpython.com/installing-python/">_Guide_</a> to install and setup python
 
 ## On PC
 - Download the <a href="https://github.com/HybridCodes/Caesar-Cipher-Algorithm/releases/latest">_file_</a>
@@ -49,7 +49,7 @@ $ cd storage
 $ dir # (Optional) This command is to see the list of items in the directory you're currently in
 ```
 - Navigate to the folder in which you extracted the file
-  Mine is in `/downloads/..`
+  - Mine is in `downloads`
 ```bash
 $ cd downloads
 $ dir
