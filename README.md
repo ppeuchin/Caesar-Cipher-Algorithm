@@ -29,7 +29,12 @@ C:\Users\your_name\Downloads>cd caesar_cipher
 
 C:\Users\your_name\Downloads\caesar_cipher>py caesar_cipher.py
 ```
-
+## On Linux
+```bash
+root@linux:~$ git clone https://github.com/codebytesz/Caesar-Cipher-Algorithm.git
+root@linux:~$ cd Caesar-Cipher-Algorithm
+root@linux:~$ python3 caesar_cipher.py #depending on the version of python you have, mine is python3
+```
 ## On Android
 - Download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US">_Termux_</a> from the play store
 - Open Termux and execute the following commands:
